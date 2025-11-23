@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Plus, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 export const Header: React.FC = () => {
   return (
@@ -23,15 +23,7 @@ export const Header: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <Link
-            to="/"
-            className="view-button view-button--primary flex items-center gap-2 no-underline"
-          >
-            <Plus size={16} />
-            New dist
-          </Link>
-
-          <a
+                    <a
             href="https://github.com/o8-is/dist"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,6 +31,13 @@ export const Header: React.FC = () => {
           >
             <Github size={20} />
           </a>
+          
+          <Link
+            to="/"
+            className="view-button view-button--primary flex items-center gap-2 no-underline"
+          >
+            New dist
+          </Link>
         </div>
       </div>
     </header>
