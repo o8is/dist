@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useGist } from '../hooks/use-gist'
 import { FileEditor } from '../components/file-editor'
-import { Loader2, Edit, Share2 } from 'lucide-react'
+import { Loader2, Share2 } from 'lucide-react'
 
 export const ViewGistPage: React.FC = () => {
   const { id } = useParams<{ id: string }>()

@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { GunProvider } from './providers/gun-provider'
 import { Header } from './components/header'
