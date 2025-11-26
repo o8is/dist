@@ -16,7 +16,7 @@ export const MyGistsPage: React.FC = () => {
 
   return (
     <div className="px-3 py-8 relative z-10 max-w-5xl mx-auto">
-      <h1 className="text-2xl font-bold text-o8-white mb-8">My Dists</h1>
+      <h1 className="text-2xl font-bold text-o8-white mb-8">My dists</h1>
       
       {gists.length === 0
         ? (
